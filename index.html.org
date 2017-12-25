@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Coming Soon - Kido Fun</title>
+
+	<meta name="description" content="">
+	<meta name="author" content="Akshay Kumar">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css" /> 
+
+	<!-- Calendar Styling  -->
+    <link rel="stylesheet" href="assets/css/plugins/calendar/calendar.css" />
+    
+    <!-- Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Base Styling  -->
+    <link rel="stylesheet" href="assets/css/plugins/calendar/responsive-calendar.css" />
+    <link rel="stylesheet" href="assets/css/app/app.v1.css" />
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="coming-page">
+    <div class="coming-soon"></div>
+    <div class="wrapper-overlay"></div>
+    <div class="coming-content container">
+        <img src="assets/images/logo-big.png" class="logo-big-coming img-responsive">
+        <form role="submit" class="coming-form">
+            <input type="email" class="email-coming" value="E-posta adresinizi girin">
+            <input type="submit" value="Subscribe">
+        </form>
+        <h1>Coming Soon</h1>
+    </div>
+
+</body>
+</html>

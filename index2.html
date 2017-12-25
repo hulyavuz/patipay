@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kido Fun</title>
+
+  <meta name="description" content="">
+  <meta name="author" content="Hülya Yavuz">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css" />
+
+  <!-- Fonts  -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Exo:400,300italic,300,200italic,100italic,100,200,400italic,500italic,500,600,600italic,700,700italic,800,900,800italic,900italic' rel='stylesheet' type='text/css'>
+
+
+  <!-- Base Styling  -->
+  <link rel="stylesheet" href="assets/css/app/app.v1.css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header id="header" role="header">
+      <div class="top-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="assets/images/logo-big.png" class="logo img-responsive">
+            </div>
+            <div class="col-md-6 text-right">
+              <ul class="user-menu">
+                <li><a href="#">Yardım Et</a></li>
+                <li><a href="#">Yardım İste</a></li>
+              </ul>
+              <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav main-menu">
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#etkinlik"> Ara</a></li>
+                    <li><a href="#ozellik">Özellikler</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slide1">
+          <div class="overlay"></div>
+          <div class="container-fluid">
+            <div class="row slider-text">
+              <div class="col-md-6">
+                <h1>Bla bla bla - Bla bla bla....</h1>
+                <p>Türkiye'nin Bla bla bla Bla bla bla Bla bla bla Bla bla bla Bla bla bla!</p>
+              </div>
+              <div class="col-md-6 text-right">
+                <!--img src="assets/images/carousel/mobile.png" class="img-responsivess mobile-slide-img"-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="search-home">
+      <div class="search-text text-center">
+        <div class="container-search">
+          <p>Yüzlerce Bla bla blaBla bla bla Bla bla bla Bla bla bla Bla bla bla ? </p>
+          <h2>Haydi Hemen Bla bla bla ,  </h2>
+          <p>Bla bla bla Bla bla bla Bla bla bla en hızlı cevabı birlikte bulalım !</p>
+        </div>
+      </div>
+      <div class="container search-form">
+        <form class="form-inline">
+          <div class="row">
+            <div class="form-group col-md-2">
+              <select class="form-control">
+                <option> Türü</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <select class="form-control">
+                <option> Tarihi</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <select class="form-control">
+                <option> Grubu</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <select class="form-control">
+                <option>Bölge</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <select class="form-control">
+                <option>ad</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <button type="submit" class="btn btn-siyam">ARA</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="container search-result">
+        <main>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="iphonesearch-list">
+                <div class="search-list">
+                  <h3>Bla bla bla</h3>
+                  <div class="row search-result-list">
+                    <ul id="search-list">
+                      <li>
+                        <a href="#list1">
+                          <div class="col-md-12 search-item">
+
+
+
+                            <img src="assets/images/bg/bg.jpg" class="img-repsonsive search-img">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img src="assets/images/avtar/user2.png" class="img-circle">
+                              </div>
+                              <div class="col-md-5 text-right">
+                                <i class="fa fa-clock-o"></i> 2 gün 12 saat
+                                <span><i class="fa fa-star-half-o"></i> 2,5 <i class="fa fa-heart"></i> 186 <i class="fa fa-comment"></i> 32</span>
+                              </div>
+                            </div>
+                            <div class="search-item-title">Bla bla bla</div>
+                          </div>
+                      </li>
+                      </a>
+
+                      <li>
+                        <a href="#list2">
+                          <div class="col-md-12 search-item">
+                            <img src="assets/images/carousel/5.jpg" class="img-repsonsive search-img">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img src="assets/images/avtar/user2.png" class="img-circle">
+                              </div>
+                              <div class="col-md-5 text-right">
+                                <i class="fa fa-clock-o"></i> 2 gün 12 saat
+                                <span><i class="fa fa-star-half-o"></i> 2,5 <i class="fa fa-heart"></i> 186 <i class="fa fa-comment"></i> 32</span>
+                              </div>
+                            </div>
+                            <div class="search-item-title">Bla bla blaBla bla blaBla bla bla</div>
+                          </div>
+                      </li>
+                      </a>
+
+                      <li>
+                        <a href="list3">
+                          <div class="col-md-12 search-item">
+                            <img src="assets/images/carousel/2.jpg" class="img-repsonsive search-img">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img src="assets/images/avtar/user2.png" class="img-circle">
+                              </div>
+                              <div class="col-md-5 text-right">
+                                <i class="fa fa-clock-o"></i> 2 gün 12 saat
+                                <span><i class="fa fa-star-half-o"></i> 2,5 <i class="fa fa-heart"></i> 186 <i class="fa fa-comment"></i> 32</span>
+                              </div>
+                            </div>
+                            <div class="search-item-title">Bla bla blaBla bla blaBla bla bla</div>
+                          </div>
+                      </li>
+                      </a>
+
+                      <li>
+                        <a href="#">
+                          <div class="col-md-12 search-item">
+                            <img src="assets/images/bg/bg.jpg" class="img-repsonsive search-img">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img src="assets/images/avtar/user2.png" class="img-circle">
+                              </div>
+                              <div class="col-md-5 text-right">
+                                <i class="fa fa-clock-o"></i> 2 gün 12 saat
+                                <span><i class="fa fa-star-half-o"></i> 2,5 <i class="fa fa-heart"></i> 186 <i class="fa fa-comment"></i> 32</span>
+                              </div>
+                            </div>
+                            <div class="search-item-title">Bla bla blaBla bla blaBla bla bla</div>
+                          </div>
+                      </li>
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8" id="search-result-lists">
+              <div class="search-result-detail" id="list1">
+                <div class="roww">
+                  <h3>Bbla bla bla blalal</h3>
+                  <div class="col-md-6 img-section">
+                    <img src="assets/images/bg/bg.jpg" class="search-detail-img">
+                    <span><i class="fa fa-star-half-o"></i> 2,5 <i class="fa fa-heart"></i> 186 <i class="fa fa-comment"></i> 32</span>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="item-info">
+                      <li><i class="fa fa-map-marker"></i>Bla Bla Bla Bla</li>
+                      <li><i class="fa fa-calendar"></i>12.05.15</li>
+                      <li><i class="fa fa-microphone"></i>Dance Class</li>
+                      <li><i class="fa fa-male"></i>4 - 12 Age</li>
+                      <li><i class="fa fa-clock-o"></i>11:00 - 14:00</li>
+                      <li><i class="fa fa-try"></i>15 TL</li>
+                    </ul>
+                  </div>
+                </div>
+                <p>
+                <div class="row detail-col-icon text-center">
+                  <div class="col-md-1">&nbsp;</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-file-powerpoint-o"></i> Otopark</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-cutlery"></i>Food</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-users"></i> W Parent</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-black-tie"></i>W Clothes</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-users"></i>Max 20</div>
+                  <div class="col-md-1">&nbsp;</div>
+                </div>
+                <p class="icon-font"><i class="fa fa-phone"></i> 0 212 252 35 00</p>
+                <p class="icon-font"><i class="fa fa-map-marker"></i> Şht. Muhtar Mh., İstiklal Cd No:8, 34435 İstanbul</p>
+                <p>
+                  <img src="assets/images/map.png" class="img-responsive">
+                </p>
+              </div>
+
+
+              <div class="search-result-detail" id="list2">
+                <div class="roww">
+                  <h3>Bla Bla Bla Bla</h3>
+                  <div class="col-md-6 img-section">
+                    <img src="assets/images/bg/bg.jpg" class="search-detail-img">
+                    <span><i class="fa fa-star-half-o"></i> 2,5 <i class="fa fa-heart"></i> 186 <i class="fa fa-comment"></i> 32</span>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="item-info">
+                      <li><i class="fa fa-map-marker"></i>Bla Bla Bla Bla</li>
+                      <li><i class="fa fa-calendar"></i>12.05.15</li>
+                      <li><i class="fa fa-microphone"></i>Dance Class</li>
+                      <li><i class="fa fa-male"></i>4 - 12 Age</li>
+                      <li><i class="fa fa-clock-o"></i>11:00 - 14:00</li>
+                      <li><i class="fa fa-try"></i>15 TL</li>
+                    </ul>
+                  </div>
+                </div>
+                <p>4-6, 7-9 ve 10-12 yaş arası çocuklarla yapılan dans derslerinin ana hedefi dans ile oyun arasında yaratıcı bir yolculuğa çıkmak. Atölyelerde yapılan çalışmalar; herhangi kalıplaşmış bir dansı uygulamaya çalışmamak, çocukların bedensel-kinetik
+                  gelişimine katkı sağlamaktır. Doğaçlama prensiplerine dayalı dersler, zihin ve beden koordinasyonunu geliştirmeyi, yaratıcı düşünebilmeyi, fiziksel kabiliyetlerini artırmayı amaçlamakta.</p>
+                <div class="row detail-col-icon text-center">
+                  <div class="col-md-1">&nbsp;</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-file-powerpoint-o"></i> Otopark</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-cutlery"></i>Food</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-users"></i> W Parent</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-black-tie"></i>W Clothes</div>
+                  <div class="col-md-2 col-xs-2 col-sm-2"><i class="fa fa-users"></i>Max 20</div>
+                  <div class="col-md-1">&nbsp;</div>
+                </div>
+                <p class="icon-font"><i class="fa fa-phone"></i> 0 212 252 35 00</p>
+                <p class="icon-font"><i class="fa fa-map-marker"></i> Şht. Muhtar Mh., İstiklal Cd No:8, 34435 İstanbul</p>
+                <p>
+                  <img src="assets/images/map.png" class="img-responsive">
+                </p>
+              </div>
+
+            </div>
+          </div>
+  </main>
+</div>
+
+      <div class="container what">
+        <div class="row">
+          <h1>PatiPay Nedir?</h1>
+          <p>
+            Bla Bla Bla Bla Bla Bla Bla BlaBla Bla Bla BlaBla Bla Bla BlaBla Bla Bla BlaBla Bla Bla BlaBla Bla Bla Bla
+          </p>
+        </div>
+      </div> <!-- end of what section -->
+      <div class="container stay-updated">
+        <div class="row">
+          <h1>Haberdar Olun!</h1>
+            <a name="ozellik"></a>
+          <p>En yeni Bla Bla Bla Bla , son güncellemelerden anında haberdar olun ! </p>
+          <form role="form" class="form-inline">
+            <div class="form-group">
+              <input type="email" class="form-control" value="" placeholder="e-mail adresinizi paylaşmanız yeterli : ) ">
+              <input type="submit" value="Haberdar Et!" class="btn btn-red">
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    <div class="container contact">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Bize Ulaşın</h1>
+            <a name="iletisim">iletisim</a>
+          <!--p>Lorem ipsum dolor sit amet, consectetur.
+            <br> Auctor vitae arcu at ornare. </p-->
+        </div>
+        <div class="spacer"></div>
+        <div class="col-md-5">
+          <form role="form" class="contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" value="" placeholder="Ad Soyad">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" value="" placeholder="E-posta">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" value="" placeholder="Mesaj Başlığı">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Mesajınız..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-red">Gönder</button>
+          </form>
+        </div>
+        <div class="col-md-6 pull-right contact-info">
+          <div class="row">
+            <div class="col-md-6">
+              <p><i class="fa fa-phone"></i>Bla Bla Bla Bla</p>
+            </div>
+            <div class="col-md-6">
+              <p><i class="fa fa-envelope"></i>bBla Bla Bla Bla</p>
+            </div>
+          </div>
+          <p class="icon-font2"><i class="fa fa-map-marker"></i>Bla Bla Bla BlaBla Bla Bla BlaBla Bla Bla Bla
+               <br> 3Bla Bla Bla Bla Kadıköy/İstanbul </br></p>
+          <p>
+            <img src="assets/images/contact-map.png" class="img-responsive">
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <footer role="footer" id="footer" class="footer">
+      <div class="container">
+        Her hakkı saklıdır | 2017 &copy;
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="assets/js/jquery/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/app/custom.js"></script>
+</body>
+
+</html>
